@@ -1,0 +1,7 @@
+{
+  "manifest_version":2,
+  "name":"Social-Launcher",
+  "description":"Socia Media tray",
+  "version":"1.0.0",
+  "icons":{"128":}
+}
