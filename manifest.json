@@ -1,7 +1,12 @@
 {
   "manifest_version":2,
   "name":"Social-Launcher",
-  "description":"Socia Media tray",
+  "description":"Social Media tray",
   "version":"1.0.0",
-  "icons":{"128":}
+  "icons":{"128":"icon.jpg"},
+  "browser_action":{
+    "default_icon":{"100":"icon.jpg"},
+    "default_popup":"popup.html"
+  },
+  "permissions":["activeTab"]
 }
